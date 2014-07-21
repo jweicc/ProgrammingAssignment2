@@ -2,9 +2,9 @@
 ## so that if we need the matrix inverse again, 
 ## it can be looked up in the cache rather than recomputed.
 
-## The "makeCacheMatrix" function returns a cache in the form of a list which contains four functions
-## which can access the original matrix and the matrix inverse 
-## if it's computed and cached by function cacheSolve.
+## The "makeCacheMatrix" function returns a cache in the form of a list 
+## which contains four functions and which can access the original matrix 
+## and the matrix inverse if it's computed and cached by function cacheSolve.
 
 makeCacheMatrix <- function(x = matrix()) {
      inv <- NULL
